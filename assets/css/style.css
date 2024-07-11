@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+    font-family: "Open Sans", sans-serif;
+}
+.menu {
+    display: inline;
+    font-size: 1em;
+    padding: inherit;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+.icono {
+    width: 2rem;
+}
+.icono svg {
+    fill: #ffffff;
+}
+header {
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header h1 {
+    font-size: 60px;
+    color: white;
+    text-align: right;
+}
+header h3 {
+    font-size: 40px;
+    font-weight: lighter;
+    color: white;
+    text-align: right;
+}
+header img {
+    width: 100%;
+}
+#ubicacion {
+    text-align: center;
+    background-color: white;
+}
+#ubicacion p {
+    font-size: 1em;
+}
+#proxima-charla {
+    background-color: #a4452ce5;
+    padding: 100px;
+    color: white;
+}
+#proxima-charla .wrapper {
+    width: 800px;
+    margin: auto;
+}
+.wrapper img {
+    width: 25%;
+}
+.wrapper .texto {
+    width: 70%;
+    margin-left: 4%;
+}
+.wrapper img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+#eventos {
+    text-align: center;
+    background-color: white;
+}
+footer {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    background: #000f08;
+    color: white;
+    padding: 20px;
+}
+i {
+    font-size: 30px;
+    margin: 10px;
+}
+/* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 300 to 800*/
+
+.open-sans-uniquifier {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
